@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface DM3BreadcrumbsView : UIView
 
-@property (nonatomic, strong) UIColor *leftLineColor;
-@property (nonatomic, strong) UIColor *rightLineColor;
-@property (nonatomic, strong) UIColor *circleColor;
-@property (nonatomic) CGFloat lineHeight;
-@property (nonatomic) CGFloat circleDiametr;
-@property (nonatomic) BOOL circleShouldGlow;
+@property (nonatomic, strong) IBInspectable UIColor *leftLineColor;
+@property (nonatomic, strong) IBInspectable UIColor *rightLineColor;
+@property (nonatomic, strong) IBInspectable UIColor *circleColor;
+@property (nonatomic) IBInspectable CGFloat lineHeight;
+@property (nonatomic) IBInspectable CGFloat circleDiametr;
+@property (nonatomic) IBInspectable BOOL circleShouldGlow;
 
 @end
