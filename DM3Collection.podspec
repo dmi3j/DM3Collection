@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DM3Collection"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Collection of UI elements"
   s.description  = <<-DESC
   Simple checkmar animation.
