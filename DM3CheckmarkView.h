@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface DM3CheckmarkView : UIView
 
-@property (nonatomic, strong) UIColor *circleColor;
-@property (nonatomic, strong) UIColor *checkmarkColor;
-@property (nonatomic) double animationDuration;
+@property (nonatomic, strong) IBInspectable UIColor *circleColor;
+@property (nonatomic, strong) IBInspectable UIColor *checkmarkColor;
+@property (nonatomic) IBInspectable double animationDuration;
 
 - (void)animateCheckmark;
 - (void)clearDrawing;
